@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+</head>
+<link rel="stylesheet" href="css/Loginpage.css" />
+<body>
+<div align="center" class="ZYall">
+	<!--头部-->
+	<div class="ZYtop">
+    	<div class="ZYtop_a">
+    		<div class="ZYtop_1"><img src="images/logo.jpg" /></div>
+        	<div class="ZYtop_2">您好！欢迎来阳阳花店！还没账号,<a href="registrationPage.html">请注册</a></div>
+        </div>
+    </div>
+    <!--主体内容-->
+	<div class="main">
+        <section>
+        	<h2>阳阳花店登录</h2>
+        	<form action="index.html" method="post" id="ZYmyform">
+            	<dl>
+                    <dd>账号：<input id="ZYuser" type="text" class="inputs" placeholder="请输入账号（user1）" onblur="checkUser()" onfocus="showUser()" /><div id="ZYuser_prompt" class="prompt"></div></dd>
+                </dl>
+                <dl>
+                    <dd>密码：<input id="ZYpwd" type="password"  class="inputs" placeholder="请输入密码（123456）" onblur="checkPwd()" onfocus="showPwd()" /><div id="ZYpwd_prompt" class="prompt"></div></dd>
+                </dl>
+                <dl>
+                    <dd><input name="" id="btn" type="submit" value="登录"/></dd>
+				</dl>
+            </form>
+        </section>
+	</div>
+    <!--尾部-->
+    <div class="ZYboot">
+    	<div class="ZYcopyright">信息链接：&nbsp;&nbsp;<a>新乡学院</a> | <a>计算机与信息工程学院</a> | <a>2019软件工程（专升本）1</a> | <a>20194132024</a> | <a>张阳</a><br /> 
+			 	<hr size="1" />
+		</div><!--end-->
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/Loginpage.js">
+</script>
+</html>

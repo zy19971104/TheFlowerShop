@@ -1,0 +1,23 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+a{ text-decoration:none; color:#999;}
+.ZYall{ font-size:14px;}
+.ZYtop{ width:100%; height:100px; border-bottom:1px solid #999; }
+.ZYtop_a{ width:1000px; height:100px;position:relative;}
+.ZYtop_1{ width:152px; height:100px;position:absolute; cursor:pointer;}
+.ZYtop_1 img{ width:150px; height:100px; float:left;}
+.ZYtop_2{ width:250px; height:100px; float:right; line-height:100px; font-size:12px; color:#999;}
+.ZYcontain{ width:1050px; height:500px; border:#F00 0px solid;}
+#ZYsecTab {padding-top: 26px;}
+.ZYinnerTab {width: 330px;margin: 0 auto;}
+.ZYinnerTab>h2 {text-align: center;font: bold 24px/50px "microsoft yahei";color: #333;margin-bottom: 10px;}
+.ZYtableItem {position: relative;z-index: 100;height: 24px;margin-bottom: 10px;padding: 14px 0;border: 1px solid #dedede;background: #FFF;line-height: 24px;}
+.ZYtableItem span {position: absolute;left: 20px;top: 0;display: inline-block;height: 50px;font: 14px/50px "sisum";color: #666;}
+.ZYtableItem input {vertical-align: middle;width: 100%;height: 24px;padding: 0 20px;border: 0 none;line-height: 24px;vertical-align: middle;font-family: "Microsoft YaHei";font-size: 14px;outline: none;box-sizing: border-box;}
+.ZYclickRegist {height: 35px;line-height: 35px;color: #666;text-indent: 1em;}
+.ZYclickRegist a {color: #06c;}
+.pt{ position:absolute; width:400px; top:10px; left:340px; text-align:left;}
+.tableBtn {width: 330px;height: 52px;border: 0 none;border-radius: 3px;background: #ff3c3c;font-size: 16px;color: #FFF;cursor: pointer;text-shadow: 1px 1px 1px #ff7373;font-family: "Microsoft YaHei";line-height: 52px;}
+.ZYboot{ width:100%; height:150px;color:#000; margin-top:50px;}
+.ZYcopyright{width:1050px;text-align:center;line-height:20px;}
+.ZYcopyright a{ text-decoration:none; color:#000; font-size:14px;}

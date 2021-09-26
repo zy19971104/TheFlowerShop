@@ -1,0 +1,21 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+a{ text-decoration:none; color:#999;}
+.ZYall{ font-size:14px;}
+.ZYtop{ width:100%; height:100px; border-bottom:1px solid #999; }
+.ZYtop_a{ width:1000px; height:100px;position:relative;}
+.ZYtop_1{ width:152px; height:100px;position:absolute; cursor:pointer;}
+.ZYtop_1 img{ width:150px; height:100px; float:left;}
+.ZYtop_2{ width:220px; height:100px; float:right; line-height:100px; font-size:12px; color:#999;}
+/*main*/
+.main{ width:1000px; height:400px; margin-top: 50px;  font-size:18px;}
+section{ width:1000px; height:250px;margin-top: 80px; }
+section dl dd{position:relative; }
+.inputs{vertical-align: middle; height: 24px; width:260px; margin-bottom:10px;padding: 14px ;line-height: 24px;}
+h2{font: bold 24px/50px "microsoft yahei";color: #333;margin-bottom: 10px;}
+.prompt{ height:25px; line-height:25px; position:absolute; top:10px; left:680px; color:#F00;}
+#btn{width: 260px;height: 52px; margin-left:40px;border: 0 none;border-radius: 3px;background: #ff3c3c;font-size: 16px;color: #FFF;cursor: pointer;text-shadow: 1px 1px 1px #ff7373;font-family: "Microsoft YaHei";line-height: 52px;}
+.ZYboot{ width:100%; height:150px;color:#000; margin-top:50px;}
+.ZYcopyright{width:1050px;text-align:center;line-height:20px;}
+.ZYcopyright a{ text-decoration:none; color:#000; font-size:14px;}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+</head>
+<link rel="stylesheet" href="css/registratonPage.css" />
+<body>
+<div align="center" class="ZYall">
+	<div class="ZYtop">
+    	<div class="ZYtop_a">
+    		<div class="ZYtop_1"><img src="images/logo.jpg" /></div>
+        	<div class="ZYtop_2">您好！欢迎来到阳阳花店！已有账号，<a href="Loginpage.html">请登录</a></div>
+        </div>
+    </div>
+    <div class="ZYcontain">
+    	<section id="ZYsecTab">
+		<form action="index.html" method="post" id="ZYmyform">
+			<div class="ZYinnerTab">
+		<h2>阳阳花店注册</h2>
+        <div class="ZYtableItem">
+	        <input type="text" id="ZYuser" name="user" onblur="checkUser()" placeholder="账号"/><div class="pt" id="ZYuser_prompt"></div>
+	    </div>
+		<div class="ZYtableItem">
+	        <input type="text" id="ZYmobile" name="phone" onblur="checkMobile()" placeholder="手机号"/><div class="pt" id="ZYmobile_prompt"></div>
+	    </div>
+		<div class="ZYtableItem">
+	        <input type="password" id="ZYpwd" name="password" onblur="checkPwd()" placeholder="密码"/><div class="pt" id="ZYpwd_prompt"></div>
+	    </div>
+		<div class="ZYtableItem">
+	        <input type="password" id="ZYrepwd" name="rePassword" onblur="checkRepwd()" placeholder="确认密码"/><div class="pt" id="ZYrepwd_prompt"></div>
+	    </div>
+	    <p class="ZYclickRegist">点击注册，表示您阳阳花店 <a href="#">《服务协议》</a></p>
+	    <input type="submit" class="tableBtn" value="同意协议并注册" >
+	</div>
+		</form>
+	</section>
+    </div>
+    <div class="ZYboot">
+    	<div class="ZYcopyright">信息链接：&nbsp;&nbsp;<a>新乡学院</a> | <a>计算机与信息工程学院</a> | <a>2019软件工程（专升本）1</a> | <a>20194132024</a> | <a>张阳</a><br /> 
+			 	<hr size="1" />
+		</div><!--end-->
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/registrationPage.js"></script>
+</html>

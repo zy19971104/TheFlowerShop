@@ -1,0 +1,53 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ text-align:center;}
+ul,ol,li{ list-style:none;}
+a{ text-decoration:none;color:#333;}
+.all{ width:100%; height:100% }
+.top{ width:100%; height:20px;background-color:#f2f2f2;}
+.top_a{ width:1050px; height:20px; font-size:12px; line-height:20px;}
+.top_a ul li:nth-of-type(1){ list-style:none;float:left; width:150px; height:40px; text-align:center;}
+.top_a ul li:nth-of-type(2){ list-style:none;float:left; width:90px; height:40px; text-align:center;}
+.top_a ul li:nth-of-type(3){ list-style:none;float:right; width:210px; height:40px; text-align:center;}
+.top_a ul li a{ width:100px; height:40px; text-decoration:none; color:#000;}
+.top_a ul li a:hover{ color:red;}
+.logo{ width:1000px; height:100px; position:relative;}
+.logo_1{ width:152px; height:100px; position:absolute;}
+.logo_1 img{ width:150px; height:100px; float:left;}
+.logo_2{ width:840px; height:100px;position:absolute; left:155px;}
+.logo_2_1{ width:500px; text-align:left;}
+.logo_2_1 a{text-decoration:none; color:#999; font-size:12px;}
+.logo_2_1 a:hover{ color:#c00;}
+#logo_sousuo{ width:800px;position:relative; padding:26px 0 0 0;}
+#ZYsearch{width:500px; height:35px;}
+.btn{ width:60px; height:39px; line-height:39px;outline:none; position:absolute;}
+.ZYmain_first{ width:100%; height:40px;background-color:#999;}
+.ZYmain_first_a{ width:1048px;; height:40px; line-height:40px; text-align:center; }
+.ZYmain_first_a ul li{ list-style:none;float:left; width:140px; height:40px; text-align:center;}
+.ZYmain_first_a ul li a{ display:block; width:140px; height:40px; text-decoration:none; color:white; font-weight:bold;}
+.ZYmain_first ul .ZYtopDown {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown1 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr1{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown2 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr2{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown3 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr3{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown4 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr4{position:relative; height:39px; z-index:999;}
+/**/
+.contant{ width:1050px; height:930px; border:1px solid #CCC; }
+.contant_top{ width:1050px; height:20px; margin:15px;}
+.contant_top span{ display:block; float:left; line-height:20px; color:#999;}
+.contant_1{ width:1020px; height:340px;}
+.contant_1_1{ width:500px; height:340px; float:left; text-align:left; line-height:30px; color:#333;}
+.cq{ text-indent:2em;line-height:30px; color:#333;}
+.contant_1_2{width:400px; height:300px; float:left; margin-left:30px;}
+.contant_2{ width:1020px; height:130px; text-align:left; margin-top:3px;}
+.ZYcontant_3{ width:1020px; height:400px; text-align:left; margin-top:3px;}
+.ZYcontant_3 ul li{ float:left; padding-top:20px; padding-left:20px;}
+/**/
+.boot{ width:100%; height:150px;color:#000; margin-top:40px;}
+.ZYcopyright{width:1050px;text-align:center;line-height:20px;}
+.ZYcopyright a{ text-decoration:none; color:#000; font-size:14px;}
+

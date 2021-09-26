@@ -1,0 +1,121 @@
+/* CSS Document */
+*{ padding:0;margin:0;font-family:"微软雅黑";box-sizing:border-box;outline:none;color:inherit;font-size:inherit;font-weight:normal}
+body{ text-align:center;}
+.all{ width:100%; height:100% }
+ul li{ list-style:none;}
+a{ text-decoration:none;}
+.top{ width:100%; height:20px;background-color:#f2f2f2;}
+.top_a{ width:1050px; height:20px; font-size:12px; line-height:20px;}
+.top_a ul li:nth-of-type(1){ list-style:none;float:left; width:150px; height:40px; text-align:center;}
+.top_a ul li:nth-of-type(2){ list-style:none;float:left; width:90px; height:40px; text-align:center;}
+.top_a ul li:nth-of-type(3){ list-style:none;float:right; width:210px; height:40px; text-align:center;}
+.top_a ul li a{ width:100px; height:40px; text-decoration:none; color:#000;}
+.top_a ul li a:hover{ color:red;}
+.logo{ width:1000px; height:100px; position:relative;}
+.ZYlogo_1{ width:152px; height:100px; position:absolute;}
+.ZYlogo_1 img{ width:150px; height:100px; float:left;}
+.logo_2{ width:840px; height:100px;position:absolute; left:155px;}
+.logo_2_1{ width:500px; text-align:left;}
+.logo_2_1 a{text-decoration:none; color:#999; font-size:12px;}
+.logo_2_1 a:hover{ color:#c00;}
+#logo_sousuo{ width:800px;position:relative; padding:26px 0 0 0;}
+#ZYsearch{width:500px; height:35px;}
+.btn{ width:60px; height:35px; line-height:35px;outline:none; position:absolute; font-size:12px;}
+.main{width:1050px; height:3200px;}
+.ZYmain_first{ width:100%; height:40px;background-color:#999;}
+.ZYmain_first_a{ width:1048px;; height:40px; line-height:40px; text-align:center; }
+.ZYmain_first_a ul li{ list-style:none;float:left; width:140px; height:40px; text-align:center;}
+.ZYmain_first_a ul li a{ display:block; width:140px; height:40px; text-decoration:none; color:white; font-weight:bold;}
+.ZYmain_first ul .ZYtopDown {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown1 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr1{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown2 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr2{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown3 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr3{position:relative; height:39px; z-index:999;}
+.ZYmain_first ul .ZYtopDown4 {display:none; border-top:0;width:100%; }
+.onqwer > li.ZYstr4{position:relative; height:39px; z-index:999;}
+.main_top{ width:1050px; height:400px;}
+.ZYmain_top_2 ul {list-style:none;}
+.ZYmain_top_2 {width:790px;height:400px;position:absolute;overflow:hidden;float:left; cursor:pointer; z-index:0;}
+.ZYmain_top_2 ul {position:relative;width:3000px;}
+.ZYmain_top_2 ul li {float:left;width:790px;height:400px;position:relative;}
+.ZYmain_top_2_spanBox {position:absolute;width:790px;height:20px;bottom:10px;left:360px;}
+.ZYmain_top_2_spanBox span {width:18px;height:18px;margin-left:5px;background-color:rgba(201,178,207,1.00);float:left;line-height:16px;text-align:center;
+text-shadow:2px 2px 2px #C5EBF0;font-family:cabin-sketch;font-size:15px;}
+.ZYmain_top_2 .ZYmain_top_2_spanBox .ZYmain_top_2_active {background-color:rgba(155,83,244,0.79);border:solid 1px #BEEBEC;border-radius:4px;}
+.ZYmain_top_2_prev {position:absolute;left:0px;top:320px;float:left;border-left:solid 1px rgba(251,245,246,1.00);opacity:0.5;}
+.ZYmain_top_2_next {width:15px;height:50px;position:absolute;right:0px;top:320px;float:right;border-right:solid 1px rgba(245,237,237,1.00);opacity:0.5}
+.main_top_3{ width:197px; height:400px; float:right; border:1px solid #CCC;}
+.main_top_3_a{ width:197px; height:30px; border-bottom:1px solid #999999; }
+.main_top_3_a h4{ width:132px;height:30px; float:left; line-height:30px; text-align:left; padding: 0 0 0 5px;font-size:14px;}
+.main_top_3_a span{ width:60px;height:30px; float:left;line-height:30px; font-size:12px;}
+.main_top_3_a span a{ text-decoration:none; color:#999;}
+.main_top_3_a span a:hover{ color:#C00;}
+.ZYmain_top_3_b{ width:197px; height:180px; font-size:12px; text-align:left; overflow:hidden;}
+.ZYmain_top_3_b a{ width:197px;; height:30px; line-height:30px; display:block; text-decoration:none;}
+.ZYmain_top_3_b ul li{ width:197px; height:30px; list-style:none; line-height:30px; border-bottom:1px dashed #999;}
+.black{ width:197px; height:20px;}
+.ZYmain_top_3_c{ width:197px; height:200px; font-size:12px; text-align:left;}
+.ZYmain_top_3_c ul li{ width:197px; height:30px; list-style:none; line-height:30px; border-bottom:1px dashed #999; cursor:pointer;}
+.ZYmain_top_3_c_1{ width:197px; height:30px; border-bottom:1px solid #999999; }
+.ZYmain_top_3_c_1 h4{ width:137px;height:30px; float:left; line-height:30px; text-align:left; padding: 0 0 0 5px; font-size:14px;}
+.ZYmain_top_3_c_1 span{ width:50px;height:30px; float:left;line-height:30px; font-size:12px;padding: 0 0 0 5px;}
+.ZYmain_top_3_c_1 span a{ text-decoration:none; color:#999;}
+.ZYmain_top_3_c_1 span a:hover{ color:#C00;}
+/*内容*/
+.contant{ width:1050px; height:1100px;}
+.contant_1{ width:200px; height:40px; margin-top:25px; color:#f96;}
+.box{font-size:20;color:#f96; width:170px; border:none;}
+.contant_1 ul li{ list-style:none;font-size:36px; font-family:"楷体"; }
+.contant_2{ width:1200px; height:450px; border:#F00 1px solid;}
+.contant_2_1{ width:340px; height:450px;border:#F00 1px solid; float:left;}
+.contant_2_2{ width:500px; height:450px;border:#F00 1px solid; float:left;}
+.contant_2_3{ width:340px; height:450px;border:#F00 1px solid; float:left;}
+/**/
+.ZYwrap{width: 1050px;height: 500px;background-color: #f5f5f5;}
+.ZYwrap .wrap-uu{width: 1050px;height: 500px;margin: 30px auto;}
+.ZYwrap ul li{width: 310px;height: 200px;float: left;margin: 20px;background-color: white;text-align: center;border-radius: 4px;}
+.ZYwrap ul li h2{color:#F00;margin-top: 60px;}
+.ZYwrap ul li p{margin-top: 20px;}
+.ZYwrap ul li:nth-of-type(odd){background:url(../images/index4.jpg) no-repeat;background-size: cover;}
+:after,:before{box-sizing:inherit}
+.overflow-hide{overflow:hidden}
+.ZYcol-sm-3{width:25%;float:left;position:relative}
+/*分类*/
+.pavilion-inner{max-width:1050px;margin:0 auto}
+.pavilion-inner .tabs{}
+.pavilion-inner ul{ list-style:none; margin-left:350px;}
+.ZYtabs{padding:0 10px}
+.ZYtabs a{text-decoration:none;color:inherit}
+.ZYtabs li{float:left;padding:0 21px;border:1px solid #c9a467;border-radius:2px;line-height:36px;font-size:16px;color:#c9a467;letter-spacing:.35px}
+.ZYtabs li{margin-left:21.2667px;cursor:pointer}
+.ZYtabs li:first-child{margin-left:0}
+.ZYtabs li.on{background:#c9a467;color:#1c1f36}
+.ZYtabs li>span{display:inline-block;vertical-align:middle}
+.tbtt{ width:200px; height:300px; text-align:left; line-height:30px;}
+.tab-content-wrap{position:relative;margin-top:20px;height:420px}
+.ZYtab-content{position:absolute;top:65px;transition:all .5s linear;opacity:0;z-index:-1;height:0;width:100%}
+.ZYtab-content.show{height:auto;opacity:1;top:0;z-index:1}
+.ZYtab-content .ZYcol-sm-3{padding:0 10px}
+.ZYtab-content .ZYcol-sm-3 .ZYtab-card{position:relative; padding:25px 0 0 0;background-color:#fff;border-radius:2px;overflow:hidden;cursor:pointer;transition:.2s linear}
+.ZYcol-sm-3 .ZYtab-card.tab-card-lg{position:relative;height:420px}
+.ZYcol-sm-3 .ZYtab-card:before{position:absolute;content:'';top:0;left:0;right:0;height:4px;border-radius:1px 1px 0 0}
+.ZYcol-sm-3 .ZYtab-card.tab-card-lg img{height:90px;width:180px;display:block}/
+.ZYcol-sm-3 .ZYtab-card.tab-card-md+.tab-card-md{margin-top:20px;}
+.ZYcol-sm-3 .ZYtab-card.tab-card-md{height:200px}
+.ZYcol-sm-3 .ZYtab-card.tab-card-md img{height:150px;width:200px;display:block}
+.ZYcol-sm-3 .ZYtab-card.tab-card-sm{height:90px; text-align:left;}
+.ZYcol-sm-3 .ZYtab-card.tab-card-sm+.tab-card-sm{margin-top:20px;}
+#ZYleftsead{width:131px;height:143px;position:fixed;top:558px;right:0px;}
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#ZYleftsead li{width:131px;height:53px;}
+#ZYleftsead li img{float:right;border-bottom-left-radius:5px;border-top-left-radius:5px;}
+#ZYleftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:131px;}
+#ZYleftsead li a .ZYshows{display:block;}
+#ZYleftsead li a .ZYhides{margin-right:-166px;cursor:pointer;cursor:hand;}
+.boot{ width:100%; height:150px;color:#000; margin-top:40px;}
+.ZYcopyright{width:1050px;text-align:center;line-height:20px;}
+.ZYcopyright a{ text-decoration:none; color:#000; font-size:14px;}
+
